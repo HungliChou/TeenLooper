@@ -46,7 +46,7 @@ Buttons, LEDs, Wires, Resistors
 [Teensy Audio Library](https://www.pjrc.com/teensy/td_libs_Audio.html "Title") 
 
 ## Steps
-###STEP 1
+####STEP 1
 **Solder boards**
 
 Using 14x1 Pins(double insulator or 1 male + 1 female) to connect Teensy 3.2 and Audio Adapter
@@ -55,7 +55,8 @@ Using 14x1 Pins(double insulator or 1 male + 1 female) to connect Teensy 3.2 and
 *Solder sideview*
 ![A](Images/solder_top.JPG)
 *Solder Topview*
-###STEP 2
+
+####STEP 2
 **Install on breadboard**
 
 **Buttons:**
@@ -79,7 +80,7 @@ Using 14x1 Pins(double insulator or 1 male + 1 female) to connect Teensy 3.2 and
 ![A](Images/Install.png)
 *Wire Connections*
 
-###STEP 3
+####STEP 3
 **Play music from Micro SD card**
 
 Now we need to test if we can play wav. from the SD card so we can make sounds when pressing buttons.
@@ -93,7 +94,7 @@ In the script "Instrument", 6 sounds are available. Pressing button "Sound Switc
 ![A](Images/switchsound.JPG)
 *Sound Switch*
 
-###STEP 4
+####STEP 4
 **Recording & Playing**
 
 The final feature to implement is recording and playingback. 
@@ -140,7 +141,7 @@ void stopRecording() {
 *Playing record*
 
 
-###STEP 5
+####STEP 5
 **Play it !!!**
 
 
@@ -148,7 +149,7 @@ void stopRecording() {
  "Title")
 ![A](Images/test.png) 
  
-###STEP 6
+####STEP 6
 **Enclosure**
 
 Design the box in Illustrator and use laser cutting on wood to make a box.
@@ -159,7 +160,7 @@ Design the box in Illustrator and use laser cutting on wood to make a box.
 ![A](Images/enclosure.jpg)
 *Wood enclosure*
 
-###Future 
+####Future 
 
 The feature of recording human voice will be implement in the future.
 
