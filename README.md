@@ -3,9 +3,11 @@
 
 ## Premise
 **RC-505(Loop Station)**
-https://www.boss.info/global/products/rc-505/
+[RC-505](https://www.boss.info/global/products/rc-505/ "Title") 
 
-[pic]
+![A](Images/rc505.jpeg)
+
+*RC-505*
 
 Basically, it is an instrument that has the power to record sounds in 5 tracks, and playback each of them seperatly. It also has built-in effects for a variety of creation.
 
@@ -44,14 +46,16 @@ Buttons, LEDs, Wires, Resistors
 [Teensy Audio Library](https://www.pjrc.com/teensy/td_libs_Audio.html "Title") 
 
 ## Steps
-####STEP 1
+###STEP 1
 **Solder boards**
 
 Using 14x1 Pins(double insulator or 1 male + 1 female) to connect Teensy 3.2 and Audio Adapter
 
-[pic]
-
-####STEP 2
+![A](Images/solder_side.JPG)
+*Solder sideview*
+![A](Images/solder_top.JPG)
+*Solder Topview*
+###STEP 2
 **Install on breadboard**
 
 **Buttons:**
@@ -72,7 +76,10 @@ Using 14x1 Pins(double insulator or 1 male + 1 female) to connect Teensy 3.2 and
 
 "Record" connects to digital pin 20
 
-####STEP 3
+![A](Images/Install.png)
+*Wire Connections*
+
+###STEP 3
 **Play music from Micro SD card**
 
 Now we need to test if we can play wav. from the SD card so we can make sounds when pressing buttons.
@@ -83,9 +90,10 @@ Then, press the second "sound button" to see if the music is coming out.
 
 In the script "Instrument", 6 sounds are available. Pressing button "Sound Switch" can trigger other 3 sounds and the first LED will light up.
 
-[pic]
+![A](Images/switchsound.JPG)
+*Sound Switch*
 
-####STEP 4
+###STEP 4
 **Recording & Playing**
 
 The final feature to implement is recording and playingback. 
@@ -126,25 +134,34 @@ void stopRecording() {
   mode = 0;
 }
 ```
-[pics]
+![A](Images/recording.JPG) 
+*Recording*
+![A](Images/playingrecord.JPG) 
+*Playing record*
 
-####STEP 5
+
+###STEP 5
 **Play it !!!**
 
-[pic]
+
 [TeenLooper video](https://youtu.be/9EvYHcrmF0I
- "Title") 
+ "Title")
+![A](Images/test.png) 
  
-####STEP 6
+###STEP 6
 **Enclosure**
 
 Design the box in Illustrator and use laser cutting on wood to make a box.
 
-[wood pic]
+![A](Images/wood.jpg)
+*Box design*
 
+![A](Images/enclosure.jpg)
+*Wood enclosure*
 
-####Future 
+###Future 
 
 The feature of recording human voice will be implement in the future.
 
 Find a microphone with good quality of recording ability and connect it to the "Mic" pin on the Teensy audio adaptor.
+
