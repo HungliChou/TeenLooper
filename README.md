@@ -80,6 +80,7 @@ Using 14x1 Pins(double insulator or 1 male + 1 female) to connect Teensy 3.2 and
 "Record" connects to digital pin 20
 
 ![A](Images/Install.png)
+
 *Wire Connections*
 
 **STEP 3**
@@ -161,12 +162,13 @@ void stopRecording() {
 Design the box in Illustrator and use laser cutting on wood to make a box.
 
 ![A](Images/wood.jpg)
+
 *Box design*
 
 ![A](Images/enclosure.jpg)
 *Wood enclosure*
 
-####Future 
+**Future** 
 
 The feature of recording human voice will be implement in the future.
 
